@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div {
+            display: inline-block;
+            background-color: blueviolet;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        /*
+        Utilizar dois pontos (:), faz uso da pseudo-classe que estão designadas ao estado de um elemento
+        :hover -> quando estiver com o cursor por cima, determinada ação ocorre
+        */
+        div:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="d1">01</div>
+        <div id="d2">02</div>
+        <div id="d3">03</div>
+    </main>
+</body>
+</html>

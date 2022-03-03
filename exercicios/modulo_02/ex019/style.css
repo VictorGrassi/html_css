@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*
+id em HTML = # em CSS (apenas um por pagina html)
+class em HTML = . em CSS (varios elementos)
+id subscreve class
+*/
+
+* {
+    font: normal 1em 'Times New Roman, Times, serif';
+}
+
+body {
+    background-image: linear-gradient(90deg, #110066, #90CBFB);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #6690b38c;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #2102be;
+    text-shadow: 1px 1px 3px #aa8c21a8;
+}
+
+h1#principal {
+    background-color: #2102be;
+    color: white;
+    text-align: center;
+}
+
+.categoria {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #6ca3cf;
+}
+
+.destaque {
+    background-color: rgba(150, 252, 218, 0.699);
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: rgb(153, 153, 0);
+}
+
+.avancado {
+    color: red;
+}
+
+p {
+    text-align: justify;
+    text-indent: 32px;
+}
